@@ -1,0 +1,239 @@
+.header {
+	height: 100px;
+	background: #131316;
+	color: #fff;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.logo {
+		h6 {
+			font-size: 19px;
+			font-weight: bold;
+			letter-spacing: 0.5px;
+
+			span {
+				color: #45ac70;
+			}
+		}
+	}
+
+	.links {
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+			margin: 0;
+			padding: 0;
+
+			li {
+				font-size: 14px;
+				font-weight: bold;
+				color: #6b7075;
+				margin-right: 30px;
+				cursor: pointer;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+			li.active {
+				color: #ffffff;
+			}
+		}
+	}
+
+	.buttons {
+		button {
+			border-radius: 17px;
+			border: none;
+			outline: none;
+			height: 40px;
+			color: #fff;
+			width: 180px;
+			background: transparent;
+
+			font-size: 14px;
+			font-weight: 500;
+		}
+
+		.mint_button {
+			border: 2px solid #97a5b3;
+			margin-right: 30px;
+		}
+
+		.connet_button {
+			background: #25b15f;
+		}
+	}
+
+	.hamburder_menu {
+		display: none;
+	}
+
+	.sm_screen_menu {
+		display: none;
+	}
+}
+
+@include desktop-screen {
+	.header {
+		height: 100px;
+
+		.logo {
+			h6 {
+				font-size: 18px;
+			}
+		}
+
+		.links {
+			ul {
+				li {
+					font-size: 14px;
+					font-weight: bold;
+					margin-right: 20px;
+				}
+			}
+		}
+
+		.buttons {
+			button {
+				height: 40px;
+				width: 150px;
+
+				font-size: 14px;
+			}
+
+			.mint_button {
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+@include desktop-screen {
+	.header {
+		.logo {
+			h6 {
+				font-size: 16px;
+			}
+		}
+
+		.links {
+			ul {
+				li {
+					font-size: 13px;
+					margin-right: 15px;
+				}
+			}
+		}
+
+		.buttons {
+			button {
+				height: 35px;
+				width: 120px;
+
+				font-size: 13px;
+			}
+
+			.mint_button {
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+@include tablet-screen {
+	.header {
+		padding: 0 20px;
+		height: 100px;
+
+		.logo {
+			h6 {
+				font-size: 16px;
+			}
+		}
+
+		.links,
+		.buttons {
+			display: none;
+		}
+
+		.hamburder_menu {
+			display: block;
+			cursor: pointer;
+
+			.icon {
+				font-size: 25px;
+			}
+		}
+
+		.sm_screen_menu {
+			display: block;
+			position: absolute;
+			background-color: #1a2123;
+			top: 100px;
+			right: 0;
+			width: 70%;
+			height: calc(100vh - 100px);
+			z-index: 1;
+			padding: 20px;
+
+			.sm_screen_links {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				ul {
+					text-align: center;
+					list-style: none;
+					margin: 0;
+					padding: 0;
+
+					li {
+						font-size: 15px;
+						font-weight: bold;
+						color: #6b7075;
+						cursor: pointer;
+						padding: 8px 0;
+
+						&:hover {
+							color: #fff;
+						}
+
+						button {
+							width: 100%;
+							height: 40px;
+							padding: 0 30px;
+							border-radius: 17px;
+							border: none;
+							outline: none;
+							color: #fff;
+							background: transparent;
+							font-size: 14px;
+							font-weight: 500;
+						}
+
+						.mint_button {
+							margin-top: 20px;
+							border: 2px solid #97a5b3;
+							margin-top: 40px;
+						}
+
+						.connet_button {
+							margin-top: 20px;
+							background: #25b15f;
+						}
+					}
+
+					li.active {
+						color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+}

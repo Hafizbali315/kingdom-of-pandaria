@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $poppins, sans-serif;
+	background: #131316;
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.container_padding {
+	padding: 0;
+}
+
+.container_padding_x {
+	padding: 0 100px;
+}
+
+.container_padding_y {
+	padding: 100px 0;
+}
+
+.container_margin {
+	margin: 100px;
+}
+
+.container_margin_x {
+	margin: 0 100px;
+}
+
+.container_margin_y {
+	margin: 100px 0;
+}
+
+@include desktop-screen {
+	.container_padding {
+		padding: 75px;
+	}
+
+	.container_padding_x {
+		padding: 0 75px;
+	}
+
+	.container_padding_y {
+		padding: 75px 0;
+	}
+
+	.container_margin {
+		margin: 75px;
+	}
+
+	.container_margin_x {
+		margin: 0 75px;
+	}
+
+	.container_margin_y {
+		margin: 75px 0;
+	}
+}
+
+@include laptop-screen {
+	.container_padding {
+		padding: 50px;
+	}
+
+	.container_padding_x {
+		padding: 0 50px;
+	}
+
+	.container_padding_y {
+		padding: 50px 0;
+	}
+
+	.container_margin {
+		margin: 50px;
+	}
+
+	.container_margin_x {
+		margin: 0 50px;
+	}
+
+	.container_margin_y {
+		margin: 50px 0;
+	}
+}
