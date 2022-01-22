@@ -2,7 +2,7 @@ import BrothersImg from '../assets/BrothersImg.png'
 
 const About = () => {
 	return (
-		<div className="about container_padding container-fluid" id="about">
+		<div className="about container_padding" id="about">
 			<div className="row">
 				<div className="col-lg-7">
 					<div className="text">
