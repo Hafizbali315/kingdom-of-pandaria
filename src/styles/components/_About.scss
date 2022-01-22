@@ -1,3 +1,33 @@
 .about {
-	padding: 100px;
+	.row {
+		border-bottom: 1px solid #63676c;
+		.text {
+			h1 {
+				font-size: 30px;
+				font-weight: 600;
+				color: #fff;
+			}
+
+			span {
+				font-size: 11px;
+				color: #63676c;
+				font-weight: 300;
+			}
+
+			p {
+				font-size: 16px;
+				margin-top: 30px;
+			}
+		}
+
+		.brothers_img {
+			width: 100%;
+			height: 100%;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 }
