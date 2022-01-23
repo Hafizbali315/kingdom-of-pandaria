@@ -24,42 +24,42 @@ const Header = () => {
 			<div className="links">
 				<ul>
 					<li className="active">
-						<Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+						<Link to="home" spy={true} smooth={true} offset={50} duration={100}>
 							Homepage
 						</Link>
 					</li>
 					<li>
-						<Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="about" spy={true} smooth={true} offset={-50} duration={100}>
 							About
 						</Link>
 					</li>
 
 					<li>
-						<Link to="minting" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="minting" spy={true} smooth={true} offset={-50} duration={100}>
 							Minting
 						</Link>
 					</li>
 
 					<li>
-						<Link to="gallery" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="gallery" spy={true} smooth={true} offset={-50} duration={100}>
 							Gallery
 						</Link>
 					</li>
 
 					<li>
-						<Link to="roadmap" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="roadmap" spy={true} smooth={true} offset={-50} duration={100}>
 							Roadmap
 						</Link>
 					</li>
 
 					<li>
-						<Link to="team" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="team" spy={true} smooth={true} offset={-50} duration={100}>
 							Team
 						</Link>
 					</li>
 
 					<li>
-						<Link to="faqs" spy={true} smooth={true} offset={-50} duration={500}>
+						<Link to="faqs" spy={true} smooth={true} offset={-50} duration={100}>
 							F.A.Q.
 						</Link>
 					</li>
