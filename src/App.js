@@ -5,6 +5,7 @@ import Minting from './components/Minting'
 import Gallery from './components/Gallery'
 import FAQs from './components/FAQs'
 import Footer from './components/Footer'
+import Team from './components/Team'
 
 function App() {
 	return (
@@ -15,7 +16,7 @@ function App() {
 			<Minting />
 			<Gallery />
 			{/* Roadmap */}
-			{/* Team */}
+			<Team />
 			<FAQs />
 			<Footer />
 		</div>
