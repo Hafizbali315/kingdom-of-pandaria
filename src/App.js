@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Minting from './components/Minting'
 import Gallery from './components/Gallery'
+import FAQs from './components/FAQs'
 
 function App() {
 	return (
@@ -12,6 +13,9 @@ function App() {
 			<About />
 			<Minting />
 			<Gallery />
+			{/* Roadmap */}
+			{/* Team */}
+			<FAQs />
 		</div>
 	)
 }

@@ -97,7 +97,7 @@ h6 {
 
 @include tablet-screen {
 	.container_padding {
-		padding: 20px;
+		padding: 50px 20px;
 	}
 
 	.container_padding_x {
@@ -105,18 +105,6 @@ h6 {
 	}
 
 	.container_padding_y {
-		padding: 20px 0;
-	}
-
-	.container_margin {
-		margin: 20px;
-	}
-
-	.container_margin_x {
-		margin: 0 20px;
-	}
-
-	.container_margin_y {
-		margin: 20px 0;
+		padding: 50px 0;
 	}
 }
