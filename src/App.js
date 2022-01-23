@@ -4,6 +4,7 @@ import About from './components/About'
 import Minting from './components/Minting'
 import Gallery from './components/Gallery'
 import FAQs from './components/FAQs'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			{/* Roadmap */}
 			{/* Team */}
 			<FAQs />
+			<Footer />
 		</div>
 	)
 }
