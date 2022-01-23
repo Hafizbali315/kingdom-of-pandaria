@@ -6,7 +6,7 @@ import FooterLogo from '../assets/FooterLogo.png'
 
 const Footer = () => {
 	return (
-		<div className="footer container_padding">
+		<div className="footer container_padding container_margin_top">
 			<div className="left">
 				<h5>GET ON THE WAITLIST</h5>
 				<p>

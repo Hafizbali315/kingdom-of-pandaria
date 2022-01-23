@@ -6,6 +6,7 @@ import Gallery from './components/Gallery'
 import FAQs from './components/FAQs'
 import Footer from './components/Footer'
 import Team from './components/Team'
+import Roadmap from './components/Roadmap'
 
 function App() {
 	return (
@@ -15,7 +16,7 @@ function App() {
 			<About />
 			<Minting />
 			<Gallery />
-			{/* Roadmap */}
+			<Roadmap />
 			<Team />
 			<FAQs />
 			<Footer />

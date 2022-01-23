@@ -4,7 +4,7 @@ import LogoWhite from '../assets/LogoWhite.png'
 const Hero = () => {
 	return (
 		<div className="hero" id="hero">
-			<video className="video_backgorund" autoPlay muted loop id="background_video">
+			<video className="video_backgorund" autoPlay muted loop id="background_video" controls="nodownload">
 				<source src={BackgroundLoopVideo} type="video/mp4" />
 			</video>
 

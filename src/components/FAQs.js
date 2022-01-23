@@ -56,7 +56,7 @@ const FAQs = () => {
 	}
 
 	return (
-		<div className="faqs_section container_padding">
+		<div className="faqs_section container_padding_x">
 			<h1>Frequently asked questions</h1>
 			<span>FOR ADDITIONAL QUESTIONS AND CURIOSITIES, PLEASE JOIN OUR DISCORD SERVER</span>
 

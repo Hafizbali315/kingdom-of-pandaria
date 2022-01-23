@@ -31,16 +31,8 @@ h6 {
 	padding: 100px 0;
 }
 
-.container_margin {
-	margin: 100px;
-}
-
-.container_margin_x {
-	margin: 0 100px;
-}
-
-.container_margin_y {
-	margin: 100px 0;
+.container_margin_top {
+	margin-top: 100px;
 }
 
 @include desktop-screen {
@@ -56,16 +48,8 @@ h6 {
 		padding: 75px 0;
 	}
 
-	.container_margin {
-		margin: 75px;
-	}
-
-	.container_margin_x {
-		margin: 0 75px;
-	}
-
-	.container_margin_y {
-		margin: 75px 0;
+	.container_margin_top {
+		margin-top: 75px;
 	}
 }
 
@@ -82,16 +66,8 @@ h6 {
 		padding: 50px 0;
 	}
 
-	.container_margin {
-		margin: 50px;
-	}
-
-	.container_margin_x {
-		margin: 0 50px;
-	}
-
-	.container_margin_y {
-		margin: 50px 0;
+	.container_margin_top {
+		margin-top: 50px;
 	}
 }
 
@@ -106,5 +82,9 @@ h6 {
 
 	.container_padding_y {
 		padding: 50px 0;
+	}
+
+	.container_margin_top {
+		margin-top: 50px;
 	}
 }
